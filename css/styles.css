@@ -90,6 +90,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 120px;
 }
 
 .logotype-span {
@@ -123,17 +124,19 @@ body {
       url(../images/people-office-mobile@2x.jpg);
   }
 }
+  
 .main-head {
-  color: #ffffff;
-  text-align: center;
-  font-size: 36px;
+  max-width: 496px;
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 1.11; 
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  max-width: 288px;
-  margin-bottom: 72px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+  text-align: center;
+  display: block;  margin: 0 auto;
 }
 
 .button-action {
@@ -245,7 +248,7 @@ body {
 .workers-specialty {
   text-align: center;
   font-size: 16px;
-  line-height: 24px; /* 150% */
+  line-height: 24px; 
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
@@ -1162,3 +1165,67 @@ body {
   }
  
 }
+
+
+
+.footer-block .footer-conteinet  {
+  display: flex;
+  align-items: baseline;
+}
+
+.container-footer {
+  margin-right: 120px;
+}
+
+.footer-block {
+  background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer-span {
+  color:  #4d5ae5;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #4D5AE5;
+  text-transform: uppercase;
+}
+
+.footer-span {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: #F4F4FD;
+  text-transform: uppercase;
+  background-color: #2e2f42;
+}
+
+.footer-paragraph {
+  max-width: 264px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: left;
+  background-color: #2e2f42;
+  color: #F4F4FD;
+}
+
+.footer-block .footer-span {
+  color: #F4F4FD;
+}
+
+.footer-block  .footer-logo {
+  display: inline-block;
+  height: 24px;
+  margin-bottom: 16px;
+}
+
