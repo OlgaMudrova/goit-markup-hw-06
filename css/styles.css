@@ -81,7 +81,7 @@ body {
   justify-content: space-between;
 }
 
-.logo {
+.logotype {
   display: inline-block;
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -92,7 +92,7 @@ body {
   text-transform: uppercase;
 }
 
-.logo-part-heder {
+.logotype-span {
   color: #2e2f42;
 }
 
@@ -100,7 +100,7 @@ body {
   fill: #2f2f37;
 }
 
-/* ===HERO=== */
+/* ===HERO SECTION=== */
 
 .section {
   background: #2e2f42;
@@ -1085,7 +1085,7 @@ body {
   }
   
 
-  /* ===FEATURE DESKTOP=== */
+  /* ===BENEFITS DESKTOP=== */
   .made-menu-item {
     max-width: calc((100% - 72px) / 4);
   }
